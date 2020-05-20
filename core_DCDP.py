@@ -11,6 +11,22 @@ import time
 import re
 import collections
 import sklearn
+from sklearn.model_selection import train_test_split
 
-df=pd.read_csv("Survey Form.csv",index_col=0, parse_dates=True,usecols = ['B'])#reads CSV FILE
+
+
+
+cols = []
+
+
+df=pd.read_excel("Survey Form.xls")#reads CSV FILE
+for f in df.columns:
+    if('(ct)' in str(f)):
+        cols = cols+[f]
+df =  pd.read_excel("Survey Form.xls",usecols = cols)
 print(df.columns)
+
+X = df.iloc[:, 0:4].values
+y = df.iloc[:, 4].values
+
+#print(X,y)
