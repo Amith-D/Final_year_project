@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+body{
+    background-color: #297085;
+
+}
+.container{
+    background-color: whitesmoke;
+    border-radius:10px;
+     height: 525px;
+    margin-top: 70px;
+     margin-left: 100px;
+     margin-right: 100px;
+     margin-bottom: 50px;
+    padding: 30px;
+}
+h1{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding-top:5px;
+    border-radius:10px;
+    font-family:  'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+.content-table {
+    border-collapse: collapse;
+    margin-left:25px;
+    font-size: 0.9em;
+  
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family:  'Josefin Sans', sans-serif;
+  }
+  
+  .content-table thead tr {
+    background-color: #297085;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family:  'Josefin Sans', sans-serif
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center ;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid  #297085;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color:  #297085;
+    font-family:  'Josefin Sans', sans-serif
+  }
+  
+  .wrapper{
+height: 400px;
+  }
+

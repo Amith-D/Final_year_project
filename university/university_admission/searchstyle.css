@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+body{
+font-family:'Montaga', serif ;
+background-color: whitesmoke;
+}
+.header{
+    background-image: url(img/header.png);
+    position:absolute;
+     height:170px;
+    margin-top: -10px;
+    margin-left:-10px;
+    width: 100%;
+    
+}
+.form{
+    width: 450px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 30px;
+    padding-top:50px;
+    border: 4px solid whitesmoke;
+}
+.form input{
+    width: 300px;
+    height: 35px;
+    border-radius: 60px;
+    border-color: grey;
+    outline: none;
+    text-align: center;
+    font-size:15px ;
+}
+
+.form button{
+    border-style: none;
+    border-radius: 100%;
+    background-color: #297085;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color:#102b33;
+}
+
+.container{
+    background-color: whitesmoke;
+     padding-left: 570px;
+     width: 600px;
+     
+
+}
+.container h2{
+
+    font-size: 35px;
+}
